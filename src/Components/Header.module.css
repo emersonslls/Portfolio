@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --white: #E6E8E6;
+    --black: #0B0A07;
+    --azul: #3772FF;
+}
+
+.Header {
+    display: flex;
+    width: 1510px;
+    height: 100px;
+    top: 49px;
+    left: 205px;
+
+    display: inline-flex;
+    padding: 30px 578.774px 29.938px 82px;
+    align-items: center;
+    gap: 449px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: rgba(11, 10, 7, 0.50);
+    backdrop-filter: blur(2px);
+
+    position: absolute;
+    z-index: 999;
+}
+
+.ConatatosPessoais {
+    display: flex;
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 115px;
+    height: 47px;
+    top: 30px;
+    right: 82px;
+
+    position: absolute;
+}
+
+.ConatatosPessoais img {
+    width: 47px;
+    height: auto;
+}
+
+
+.Logo {
+    position: absolute;
+
+    width: 47px;
+    height: 40.06px;
+    top: 30px;
+    left: 82px;
+
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 767px) {
+    .Header {
+        width: 316px !important;
+        height: 100px !important;
+        top: 51px !important;
+        left: 52px !important;
+        padding: 30px 37px 28px 42px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        gap: 117.938px !important;
+
+        position: absolute !important;
+    }
+
+    .Logo {
+        width: 47px !important;
+        height: 40.06px !important;
+        top: 30px !important;
+        left: 42px !important;
+        
+    }
+
+    .ConatatosPessoais {
+        width: 40px !important;
+        height: 100px !important;
+        top: 0px !important;
+        gap: 20px !important;
+    }
+
+    .ConatatosPessoais img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+}

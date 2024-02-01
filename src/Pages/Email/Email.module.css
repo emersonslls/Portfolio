@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Email {
+    width: 100%;
+    height: 1745px;
+    background: #171615;
+
+    position: relative;
+}
+
+.FooterE {
+    top: 730px;
+    position: relative;
+}
+
+.StarFundo {
+    width: 739.42px;
+    height: auto;
+    top: 890px;
+    left: 1000px;
+    border: 9.41px;
+    transform: rotate(19.287deg);
+    flex-shrink: 0;
+
+    position: absolute;
+
+    stroke-width: 9.405px;
+    stroke: rgba(230, 232, 230, 0.20);
+}
+
+@media (max-width: 767px) {
+
+    .Email {
+        height: 1329px;
+        position: absolute;
+    }
+
+    .FooterE {
+        top: -390px;
+    }
+
+    .StarFundo {
+        width: 215.67px;
+        height: 216.56px;
+        top: 875px;
+        left: 164px;
+        border: 2.98px;
+        transform: rotate(23.738deg);
+    }
+}

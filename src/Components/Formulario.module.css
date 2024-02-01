@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --white: #E6E8E6;
+  --black: #0B0A07;
+  --azul: #3772FF;
+}
+
+.Forms {
+  width: 1000px;
+  height: 1100px;
+  top: 250px;
+  left: 460px;
+  border-radius: 80px;
+
+  position: absolute;
+
+  border-radius: 80px;
+  background: rgba(11, 10, 7, 0.50);
+  backdrop-filter: blur(2px);
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Text {
+  width: 493px;
+  height: 66px;
+  top: 45px;
+  left: 258px;
+
+  position: absolute;
+
+}
+
+.Text h1 {
+  color: var(--white);
+  font-family: "Poppins";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.quadrado {
+  width: 5px;
+  height: 356px;
+  top: 5px;
+  left: 500px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+
+  background: linear-gradient(180deg, #3772FF 0%, #F46036 100%);
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nome {
+  width: 800px;
+  height: 152px;
+  top: 241px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nome label {
+  width: 106px;
+  height: 52px;
+  left: 35px;
+  top: -18px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  color: #E6E8E6;
+
+}
+
+.Nome input {
+  width: 800px;
+  height: 100px;
+  top: 293px;
+  left: 100px;
+  padding: 24px 32px 24px 33px;
+  /* Correção aqui */
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Nome input::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Email {
+  width: 800px;
+  height: 152px;
+  top: 425px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Email label {
+  width: 128px;
+  height: 52px;
+  left: 35px;
+  top: -18px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  color: #E6E8E6;
+
+}
+
+.Email input {
+  width: 800px;
+  height: 100px;
+  top: 293px;
+  left: 100px;
+  padding: 24px 32px 24px 33px;
+  /* Correção aqui */
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.Email input::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Mensagem {
+  width: 800px;
+  height: 250px;
+  top: 610px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  /* Alinhado ao topo */
+  align-items: flex-start;
+  /* Alinhado à esquerda */
+}
+
+.Mensagem label {
+  width: 200px;
+  height: 52px;
+  left: 33px;
+  /* Ajustado para centralizar verticalmente */
+  top: -16px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #E6E8E6;
+}
+
+.Mensagem textarea {
+  width: 800px;
+  height: 198px;
+  top: 35px;
+  padding: 24px 36px 0px 33px;
+
+  position: absolute;
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+  
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Mensagem textarea::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Enviar {
+  display: inline-flex;
+  padding: 5px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 14.223px;
+  position: absolute;
+
+  width: 238px;
+  height: 76px;
+  top: 920px;
+  left: 381px;
+  padding: 5px, 50px, 5px, 50px;
+  border-radius: 42.67px;
+  gap: 14.22px;
+
+  border: none;
+  border-radius: 42.669px;
+  background: linear-gradient(98deg, #3772FF 0.31%, #F46036 100%);
+
+  color: #E6E8E6;
+  font-family: "Poppins";
+  font-size: 43.725px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 767px) {
+
+  .Forms {
+    width: 400px;
+    height: 742px;
+    top: 255px;
+    left: 7px;
+    border-radius: 60px;
+
+    position: absolute;
+  }
+
+  .Text {
+    width: 315px;
+    height: 43px;
+    top: 79px;
+    left: 45px;
+
+    position: absolute;
+  }
+
+  .Text h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .quadrado {
+    width: 5px;
+    height: 243px;
+    top: 50px;
+    left: 200px;
+
+    position: absolute;
+  }
+
+  /*NOME*/
+
+  .Nome {
+    width: 320px !important;
+    height: 60.8px !important;
+    top: 262px !important;
+    left: 40px !important;
+    border-radius: 20px;
+
+  }
+
+  .Nome label {
+    width: 43px;
+    height: 21px;
+    top: -16px;
+    left: 14px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    position: absolute;
+
+  }
+
+  .Nome input {
+    width: 320px;
+    height: 40px;
+    top: 282.8px;
+    left: 40px;
+    padding: 9.6px, 193.8px, 9.4px, 13.2px;
+    border-radius: 20px;
+
+    /* Correção aqui */
+
+    gap: 10px;
+
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Nome input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  /*EMAIL*/
+
+  .Email {
+    width: 320px !important;
+    height: 60.8px !important;
+    top: 350px !important;
+    left: 40px !important;
+    border-radius: 20px;
+
+  }
+
+  .Email label {
+    width: 50px;
+    height: 21px;
+    top: -16px;
+    left: 14px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    position: absolute;
+
+  }
+
+  .Email input {
+    width: 320px;
+    height: 40px;
+    top: 282.8px;
+    left: 40px;
+    padding: 9.6px, 193.8px, 9.4px, 13.2px;
+    border-radius: 20px;
+
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* Correção aqui */
+
+    gap: 10px;
+
+  }
+
+  .Email input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  /*MENSAGEN*/
+
+  .Mensagem {
+    width: 320px !important;
+    height: 164px !important;
+    top: 438px !important;
+    left: 40px !important;
+    border-radius: 20px;
+
+  }
+
+  .Mensagem label {
+    width: 80px;
+    height: 21px;
+    top: -16px;
+    left: 14px;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    position: absolute;
+
+  }
+
+  .Mensagem textarea {
+    width: 320px;
+    top: 6px;
+    height: 150px;
+    padding: 9.6px, 193.8px, 9.4px, 13.2px;
+    border-radius: 20px;
+
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* Correção aqui */
+
+    gap: 10px;
+
+  }
+
+  .Mensagem textarea::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .Enviar {
+    width: 119px;
+    height: 38px;
+    top: 655px;
+    left: 140px;
+    padding: 2.5px, 25px, 2.5px, 25px;
+    border-radius: 21.33px;
+    gap: 7.11px;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+  }
+
+}
