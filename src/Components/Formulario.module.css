@@ -517,3 +517,272 @@
   }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+  .Forms {
+    width: 1000px;
+    height: 1100px;
+    top: 250px;
+    left: 155px;
+    border-radius: 80px;
+  
+    position: absolute;
+  
+  }
+
+ 
+.Text {
+  width: 493px;
+  height: 66px;
+  top: 45px;
+  left: 258px;
+
+  position: absolute;
+
+}
+
+.Text h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.quadrado {
+  width: 5px;
+  height: 356px;
+  top: 5px;
+  left: 500px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+
+  background: linear-gradient(180deg, #3772FF 0%, #F46036 100%);
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nome {
+  width: 800px;
+  height: 152px;
+  top: 241px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nome label {
+  width: 106px;
+  height: 52px;
+  left: 35px;
+  top: -18px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  color: #E6E8E6;
+
+}
+
+.Nome input {
+  width: 800px;
+  height: 100px;
+  top: 293px;
+  left: 100px;
+  padding: 24px 32px 24px 33px;
+  /* Correção aqui */
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Nome input::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Email {
+  width: 800px;
+  height: 152px;
+  top: 425px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Email label {
+  width: 128px;
+  height: 52px;
+  left: 35px;
+  top: -18px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  color: #E6E8E6;
+
+}
+
+.Email input {
+  width: 800px;
+  height: 100px;
+  top: 293px;
+  left: 100px;
+  padding: 24px 32px 24px 33px;
+  /* Correção aqui */
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.Email input::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Mensagem {
+  width: 800px;
+  height: 250px;
+  top: 610px;
+  left: 100px;
+  border-radius: 50px;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  /* Alinhado ao topo */
+  align-items: flex-start;
+  /* Alinhado à esquerda */
+}
+
+.Mensagem label {
+  width: 200px;
+  height: 52px;
+  left: 33px;
+  /* Ajustado para centralizar verticalmente */
+  top: -16px;
+
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #E6E8E6;
+}
+
+.Mensagem textarea {
+  width: 800px;
+  height: 198px;
+  top: 35px;
+  padding: 24px 36px 0px 33px;
+
+  position: absolute;
+
+  gap: 10px;
+
+  border-radius: 50px;
+  background: #E6E8E6;
+  border: none;
+  
+  color: #646464;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Mensagem textarea::placeholder {
+  color: #a0a0a0;
+  font-family: "Poppins";
+  font-size: 34.565px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Enviar {
+  display: inline-flex;
+  padding: 5px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 14.223px;
+  position: absolute;
+
+  width: 238px;
+  height: 76px;
+  top: 920px;
+  left: 381px;
+  padding: 5px, 50px, 5px, 50px;
+  border-radius: 42.67px;
+  gap: 14.22px;
+
+  border: none;
+  border-radius: 42.669px;
+  background: linear-gradient(98deg, #3772FF 0.31%, #F46036 100%);
+
+  color: #E6E8E6;
+  font-family: "Poppins";
+  font-size: 43.725px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+}

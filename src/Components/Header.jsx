@@ -8,7 +8,7 @@ import WhatsApp from '../Assets/WhatsApp.png'
 
 function Header() {
   const myPhoneNumber = '+5511916336118'; // Substitua pelo seu número de telefone
-  const defaultMessage = 'Olá, estou entrando em contato pelo site.'; // Mensagem padrão
+  const defaultMessage = 'Oi! Estou no site e queria [insira o motivo]. Alguma chance de conversarmos? Obrigado!'; // Mensagem padrão
 
   return (
     <div>

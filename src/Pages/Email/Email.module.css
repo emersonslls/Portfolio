@@ -58,3 +58,23 @@
         transform: rotate(23.738deg);
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Email {
+        height: 1650px;
+        position: absolute;
+    }
+
+    .StarFundo {
+        width: 439.42px;
+        height: auto;
+        top: 1000px;
+        left: 790px;
+        border: 9.41px;
+        transform: rotate(23.287deg);
+        flex-shrink: 0;
+    
+        position: absolute;
+    }
+}
