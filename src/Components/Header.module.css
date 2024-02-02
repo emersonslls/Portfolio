@@ -108,3 +108,37 @@
     }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .Header {
+        width: 1000px !important;
+        height: 100px !important;
+        top: 50px !important;
+        left: 155px !important;
+        padding: 30px 37px 28px 42px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        gap: 117.938px !important;
+
+        position: absolute !important;
+    }
+
+    .Logo {
+        width: 47px !important;
+        height: 40.06px !important;
+        top: 30px !important;
+        left: 42px !important;
+        
+    }
+
+    .ConatatosPessoais {
+        width: 40px !important;
+        height: 100px !important;
+        top: 0px !important;
+        gap: 20px !important;
+        right: 112px !important;
+    }
+
+}
