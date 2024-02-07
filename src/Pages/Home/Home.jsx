@@ -82,7 +82,7 @@ function Home() {
           <h3>Para os profissionais autônomos, oferecemos a oportunidade de criar perfis detalhados, evidenciando suas habilidades e compartilhando projetos anteriores. Nosso objetivo é simplificar a conexão entre autônomos e clientes, proporcionando uma experiência completa e confiável</h3>
         </div>
         <div className={styles.quadrado2} />
-        <a href="https://myservice-iota.vercel.app" target="_blank">
+        <a href="https://mysservice.vercel.app" target="_blank">
           <button className={styles.SaibaMais}>
             Saiba mais
           </button>
